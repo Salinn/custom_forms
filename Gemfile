@@ -33,13 +33,19 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
+  #Gem to bring up a debugger in browser when something crashes
+  gem 'better_errors', '1.0.1'
 
-  # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  #The database used in testing/development
+  gem 'sqlite3'
+  gem 'shoulda-matchers'
+end
 
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+#Gems used in production
+group :production do
+  gem 'rails_12factor'
+
+  #The database used in production
+  gem 'pg'
 end
 

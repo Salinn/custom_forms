@@ -131,12 +131,14 @@
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.0, RVM: ruby-1.9.3-p551 [rails4.1.8]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.0, RVM: ruby-1.9.3-p551 [rails4.1.8]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="better_errors (v1.0.1, RVM: ruby-1.9.3-p551 [rails4.1.8]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="binding_of_caller (v0.7.2, RVM: ruby-1.9.3-p551 [rails4.1.8]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-1.9.3-p551 [rails4.1.8]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.7.6, RVM: ruby-1.9.3-p551 [rails4.1.8]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.0, RVM: ruby-1.9.3-p551 [rails4.1.8]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.1.0, RVM: ruby-1.9.3-p551 [rails4.1.8]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.4.1, RVM: ruby-1.9.3-p551 [rails4.1.8]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.9.1.1, RVM: ruby-1.9.3-p551 [rails4.1.8]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.2, RVM: ruby-1.9.3-p551 [rails4.1.8]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-1.9.3-p551 [rails4.1.8]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.5.2, RVM: ruby-1.9.3-p551 [rails4.1.8]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.3.5, RVM: ruby-1.9.3-p551 [rails4.1.8]) [gem]" level="application" />

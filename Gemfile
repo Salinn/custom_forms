@@ -33,6 +33,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   #Gem to bring up a debugger in browser when something crashes
   gem 'better_errors', '1.0.1'
+  gem 'binding_of_caller'
 
   #The database used in testing/development
   gem 'sqlite3'

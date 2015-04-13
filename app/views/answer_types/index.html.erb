@@ -14,7 +14,7 @@
   <tbody>
     <% @answer_types.each do |answer_type| %>
       <tr>
-        <td><%= answer_type.type %></td>
+        <td><%= answer_type.response %></td>
         <td><%= answer_type.quantity %></td>
         <td><%= link_to 'Show', answer_type %></td>
         <td><%= link_to 'Edit', edit_answer_type_path(answer_type) %></td>

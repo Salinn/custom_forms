@@ -21,17 +21,17 @@ ActiveRecord::Schema.define(version: 20150413204958) do
   end
 
   create_table "answer_types", force: :cascade do |t|
-    t.string   "type"
+    t.string   "response"
     t.integer  "quantity"
-    t.integer  "answer_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "answers", force: :cascade do |t|
     t.string   "text"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "answer_type_id"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
   end
 
   create_table "questions", force: :cascade do |t|
